@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE Intel syntax s
+gcc -S -masm=intel $CFILE

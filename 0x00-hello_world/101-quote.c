@@ -1,4 +1,7 @@
-#include <stdio.h>
+#!/bin/bash
+gcc -S -masm=intel $CFILE
+
+8.  #include <stdio.h>
     #include <unistd.h>                                                                                                                      
 /** 
  *  * main - Entry

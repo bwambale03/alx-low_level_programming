@@ -1,4 +1,4 @@
-include <stdio.h>
+#includei<stdio.h>
 /**
  * main - Entry
  *

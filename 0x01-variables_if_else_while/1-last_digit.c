@@ -2,7 +2,7 @@
 #include <time.h>
 #include<stdio.h>
 /**
- * main - assigning a random number to a variable 
+ * main - assigning a random number to a variable
  * Return: 0
  */
 int main(void)
@@ -10,6 +10,7 @@ int main(void)
 	int n;
 	int x;
 	x = n % 10;
+
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;

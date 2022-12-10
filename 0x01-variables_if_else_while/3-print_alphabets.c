@@ -9,9 +9,9 @@ int main(void)
 	char lc;
 	char uc;
 
-	for (lc = 'a'; lc <= 'z'; lc++);
+	for (lc = 'a'; lc <= 'z'; lc++)
 	{
-		for (uc = 'A'; uc <= 'Z'; uc++);
+		for (uc = 'A'; uc <= 'Z'; uc++)
 		{
 			putchar ("uc\n");
 		}

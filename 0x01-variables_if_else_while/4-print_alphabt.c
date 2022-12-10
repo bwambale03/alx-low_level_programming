@@ -3,8 +3,7 @@
  * main - a program that prints alphabets
  * in lowercase except q and e followed
  * by a newline
- *
- * Reurn: 0
+ * Reurn: Always 0
  */
 int main(void)
 {

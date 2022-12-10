@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - a program that prints alphabets
- * in lowercase except q  and e followed 
+ * in lowercase except q and e followed 
  * by a newline
  *
  * Reurn: 0

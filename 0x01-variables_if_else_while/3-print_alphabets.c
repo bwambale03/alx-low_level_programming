@@ -6,16 +6,15 @@
  */
 int main(void)
 {
-	char lc;
-	char uc;
+	char ch;
 
-	for (lc = 'a'; lc <= 'z'; lc++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		for (uc = 'A'; uc <= 'Z'; uc++)
+		for (ch = 'A'; ch <= 'Z'; ch++)
 		{
-			putchar ("uc\n");
+			putchar ("ch\n");
 		}
-		putchar ("lc\n");
+		putchar ("ch\n");
 	}
 	putchar ("\n");
 }

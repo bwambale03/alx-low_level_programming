@@ -12,8 +12,9 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("Last digit of %d is %x\n");
 	x = n % 10;
+
+	printf("Last digit of %d is %x\n");
 
 	if (x > 5)
 	{
@@ -27,7 +28,5 @@ int main(void)
 	{
 		printf("and is less than  and not zero\n");
 	}
-	printf("\n");
-
 	return (0);
 }

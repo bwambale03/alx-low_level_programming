@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 /**
  * main - printing singer digit numbers less than ten
  * and starting from zero

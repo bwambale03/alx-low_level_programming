@@ -13,5 +13,5 @@ int main(void)
 	{
 		printf("%d\n", num);
 	}
-	printf("\n")
+	printf("\n");
 }

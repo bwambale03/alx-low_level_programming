@@ -1,9 +1,10 @@
-#include <stdlib.h>
-#include <time.h>
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 /**
- * main - assigning a random number to a variable
- * Return: 0
+ * main - Entry
+ *
+ * Return: Always 0
  */
 int main(void)
 {
@@ -12,7 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	x = n % 10;
+	X = n % 10;
 
 	if (x > 5)
 	{
@@ -20,12 +21,11 @@ int main(void)
 	}
 	else if (x == 0)
 	{
-		printf("Last digit of %d is %d and is zero\n", n, x);
+		printf("Last digit of %d is %d and is 0\n", n, x);
 	}
 	else
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, x);
-		printf('\n');
 	}
 	return (0);
 }

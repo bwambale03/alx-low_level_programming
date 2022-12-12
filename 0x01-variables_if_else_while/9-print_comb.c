@@ -1,18 +1,19 @@
 #include<stdio.h>
 #include<stdlib.h>
 /**
-* main - Entry
-*
-* Return: 0
-*/
+ * main - Possible combinations of single digit numbers
+ *
+ * Return: (0)
+ */
 int main(void)
 {
-	int n;
+	int b;
 
-	for (n = 48; n <= 58; n++)
+	for (b = 0; b <= 20; b++)
 	{
-		putchar(n);
-		if (n != 57)
+		putchar((b + '0'));
+
+		if (b <= 19)
 		{
 			putchar(',');
 			putchar(' ');

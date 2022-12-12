@@ -12,7 +12,6 @@ int main(void)
 	for (b = 0; b <= 20; b++)
 	{
 		putchar((b + '0'));
-
 		if (b <= 19)
 		{
 			putchar(',');

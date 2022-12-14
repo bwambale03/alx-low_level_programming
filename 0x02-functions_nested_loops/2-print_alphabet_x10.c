@@ -10,6 +10,6 @@ void print_alphabet_x10(void)
 	{
 		if (b <= 10)
 			_putchar(b);
+		_putchar('\n');
 	}
-	_putchar('\n');
 }

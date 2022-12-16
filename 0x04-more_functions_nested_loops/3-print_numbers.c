@@ -1,15 +1,17 @@
-#include "main,h"
-/**
- * print_numbers - printing numbers from zero to nine
- * Return: void
- */
-void print_numbers(void)
-{
-	char c;
+#include "main.h"
 
-	for (c = '0'; c <= '9'; c++)
-	{
-		_putchar(c + '0');
-	}
-	_putchar('\n');
+/**
+ * main - testing whether integer is positive or negative
+ * Return: 0
+ */
+
+int main(void)
+{
+	int i;
+
+	i = 0;
+	positive_or_negative(i);
+
+	return (0);
 }
+

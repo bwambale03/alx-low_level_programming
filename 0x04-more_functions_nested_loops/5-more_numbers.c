@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * more_numbers - printing ten times the numbers from 0 to 14
+ * more_numbers - print 10 times the numbers from 0 to 14
  *
- * Return: void
+ * Description: Can only use _putchar 3 times
  */
+
 void more_numbers(void)
 {
 	int c, i;
@@ -16,10 +18,12 @@ void more_numbers(void)
 		{
 			if (i > 9)
 				_putchar(i / 10 + '0');
+
 			_putchar(i % 10 + '0');
 			i++;
 		}
 		c++;
-		putchar('\n');
+		_putchar('\n');
 	}
 }
+

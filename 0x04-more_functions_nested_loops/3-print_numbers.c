@@ -1,17 +1,19 @@
 #include "main.h"
 
 /**
- * main - testing whether integer is positive or negative
- * Return: 0
+ * print_numbers - printing  numbers, from 0 to 9,
+ *
+ * followed by a new line
  */
 
-int main(void)
+void print_numbers(void)
 {
 	int i;
 
-	i = 0;
-	positive_or_negative(i);
+	for (i = 0; i < 10; i++)
+	{
+		_putchar(i + '0');
 
-	return (0);
+	}
+	_putchar('\n');
 }
-

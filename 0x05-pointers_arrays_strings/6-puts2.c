@@ -1,21 +1,22 @@
 #include "main.h"
 
 /**
- * print_rev - print a string in reverse
- * @s: char array string type
+ * puts2 - print one char out of 2 of a string
+ *
+ *  @str: char array string type
+ *  Description: Print 1st char, then 3rd, then 5th, etc..
  */
 
-void print_rev(char *s)
+void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		if (i % 2 == 0)
 
-		;
-
-	for (i--; i >= 0; i--)
-
-		_putchar(s[i]);
+			_putchar(str[i]);
+	}
 
 	_putchar('\n');
 }

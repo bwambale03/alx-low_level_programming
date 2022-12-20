@@ -1,18 +1,14 @@
 #include "main.h"
-
 /**
- * _puts - print a string to stdout
- *
+ * _puts - printing a strig followed by a new line
  * @str: char array string type
- *
- * Description: Can only use _putchar
+ * description: can only use _putchar
  */
-
-void _puts(char *str)
+void _puts(char *str);
 {
 	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; i str[i] != '\0'; i++)
 	{
 		_putchar(str[i]);
 	}

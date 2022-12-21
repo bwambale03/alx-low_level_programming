@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *puts2 - the char out of 2 of a string
+ *  puts2 - print one char out of 2 of a string
  *
  *  @str: char array string type
  *
@@ -9,6 +9,7 @@
  */
 
 void puts2(char *str)
+
 {
 
 	int i;

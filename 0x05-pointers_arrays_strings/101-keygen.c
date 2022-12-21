@@ -4,7 +4,7 @@
 /**
  * main - generaing random valid passwords
  */
-ant main(void)
+int main(void)
 {
 	int myrand;
 	int count;

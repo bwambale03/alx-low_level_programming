@@ -11,7 +11,7 @@
  *
  * Return: pointer to resulting `dest`
  */
-
+ar *_strncat(char *dest, char *src, int n)
 {
 	int i, c;
 
@@ -23,4 +23,3 @@
 	}
 	return (dest);
 }
-

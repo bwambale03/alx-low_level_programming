@@ -11,11 +11,11 @@
 
 /*
  * _strstr - function that locates a substring
-* @haystack : first string
-* @needle : substring
-* Return : return a pointer to the beginning of the
-* located substring or NULL if no substring found.
-*/
+ * @haystack : first string
+ * @needle : substring
+ * Return : return a pointer to the beginning of the
+ * located substring or NULL if no substring found.
+ */
 char *_strstr(char *haystack, char *needle)
 {
 	int i = 0, j, x;

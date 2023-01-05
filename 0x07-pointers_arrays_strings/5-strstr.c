@@ -7,10 +7,10 @@
  * @needle: target substring to search for
  * Return: pointer to index of string at first occurence of whole substring
  */
-/* _strstr- function that locates a substring
+/*_strstr- function that locates a substring
 * @haystack: first string
 * @needle - substring
-* Retun: return a pointer ti the beginning of 
+* Return: return a pointer ti the beginning of
 * the located substring or NULL if no substring found
 */
 char *_strstr(char *haystack, char *needle)

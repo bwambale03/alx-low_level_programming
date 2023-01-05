@@ -3,17 +3,17 @@
 #include <stddef.h>
 
 /**
-* _strstr - locate and return pointer to first occurence of substring
-* @haystack: string to search
-* @needle: target substring to search for
-* Return: pointer to index of string at first occurence of whole substring
-*/
- /*_strstr- function that locates a substring
- * @haystack: first string
- * @needle: substring
- * Return: return a pointer to the beginning of the
- * located substring or NULL if no substring found.
+ * _strstr - locate and return pointer to first occurence of substring
+ * @haystack: string to search
+ * @needle: target substring to search for
+ * Return: pointer to index of string at first occurence of whole substring
  */
+*_strstr - function that locates a substring
+* @haystack : first string
+* @needle : substring
+* Return : return a pointer to the beginning of the
+* located substring or NULL if no substring found.
+* /
 char *_strstr(char *haystack, char *needle)
 {
 	int i = 0, j, x;
@@ -56,7 +56,6 @@ char *_strstr(char *haystack, char *needle)
 
 		i++;
 	}
-
 	return (NULL); /* No match */
 	return (NULL);
 }

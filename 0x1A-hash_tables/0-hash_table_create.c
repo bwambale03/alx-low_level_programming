@@ -3,7 +3,7 @@
 /**
  * hash_table_create - Creates a hash table.
  * @size: The size of the array.
- * @Desoluton01
+ * @bwambale03
  * Return: When an error occurs - NULL.
  * Otherwise - a pointer to the new hash table.
  */

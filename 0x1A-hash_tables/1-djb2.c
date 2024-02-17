@@ -1,9 +1,9 @@
 #include "hash_tables.h"
 
 /**
- * Author: Aanuoluwapo Shodipo
- * Date Created: 08/04/2023
- * Last Modified: 08/04/2023
+ * Author: Edwin Bwambale
+ * Date Created: 17/02/2024
+ * Last Modified: further notice
  *
  * Description
  * A hash function implementing the djb2 algorithm

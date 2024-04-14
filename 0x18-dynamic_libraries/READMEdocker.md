@@ -15,3 +15,26 @@ This guide walks you through the Docker setup for a C project that uses dynamic 
 - **Install Essential Packages**:
   ```dockerfile
   RUN apt-get update && apt-get install -y gcc make libc6-dev
+
+## Docker Setup Instructions
+
+### 1. Copy Source Files to Container
+Ensure all your project files are in the same directory as your Dockerfile. Use the following Docker instruction to copy all files into the working directory `/usr/src/app` in the container:
+```dockerfile
+COPY . /usr/src/app
+
+### 2. Compile and Build Dynamic Library
+``RUN gcc -c -fPIC *.c && gcc -shared -o libdynamic.so *.o
+
+### 3. Compile Main Program
+``Compile your main program, main, ensuring it links properly with the newly created dynamic library:
+    RUN gcc -L. -o main 0-isupper.c -ldynamic
+
+### 4. Set the Command to Run the Main Program
+    CMD ["./main"]
+
+#### Building and Running the Docker Container
+`` docker build -t mycproject .
+
+#### Run the Docker Container
+`` docker run --rm mycproject
